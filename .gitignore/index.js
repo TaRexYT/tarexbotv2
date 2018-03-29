@@ -23,6 +23,12 @@ bot.on('message', message => {
 
 bot.on('message', message => {
     if (message.content === '*help') {
-    message.channel.sendMessage('*tarex *team');
+    message.channel.sendMessage('*tarex *team *forum');
+  }
+});
+
+bot.on('message', message => {
+    if (message.content === '*forum') {
+    message.channel.sendMessage('http://infisiaforum.mtxserv.fr/');
   }
 });
