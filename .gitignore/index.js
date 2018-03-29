@@ -7,7 +7,6 @@ bot.on("ready", function() {
     console.log("le bot a bien étes conecte");
 });
 
-bot.login("NDI4NzQwMjQ3Mjg4MDIxMDAy.DZ37Gg.NaePSiWDIKlpoxXo1L1vZ_3Wlq4");
 
 bot.on('message', message => {
     if (message.content === '*tarex') {
