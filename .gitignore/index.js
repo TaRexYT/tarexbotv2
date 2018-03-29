@@ -14,3 +14,9 @@ bot.on('message', message => {
     message.channel.sendMessage('je le suce ');
   }
 });
+
+bot.on('message', message => {
+    if (message.content === '*team') {
+    message.channel.sendMessage('la team https://discord.gg/EdXPwNB');
+  }
+});
