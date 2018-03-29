@@ -3,7 +3,7 @@ const Discord = require("discord.js");
 var bot = new Discord.Client();
 
 bot.on("ready", function() {
-    bot.user.setGame("i love TaRex, !help");
+    bot.user.setGame("i love TaRex, *help");
     console.log("le bot a bien étes conecte");
 });
 
