@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 
-car bot = new Discord.Client();
+var bot = new Discord.Client();
 
 createImageBitmap.on("ready"), function() {
     bot.user.setGame "i love TaRex, !help");
