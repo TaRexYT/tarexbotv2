@@ -8,3 +8,8 @@ bot.on("ready", function() {
 });
 
 bot.login("NDI4NzQwMjQ3Mjg4MDIxMDAy.DZ37Gg.NaePSiWDIKlpoxXo1L1vZ_3Wlq4");
+bot.on('message', message => {
+    if (message.content === 'TaRex') {
+    message.channel.sendMessage('je le suce');
+  }
+});
