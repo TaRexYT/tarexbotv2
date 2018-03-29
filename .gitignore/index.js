@@ -20,3 +20,9 @@ bot.on('message', message => {
     message.channel.sendMessage('la team https://discord.gg/EdXPwNB');
   }
 });
+
+bot.on('message', message => {
+    if (message.content === '*help') {
+    message.channel.sendMessage('*tarex *team');
+  }
+});
